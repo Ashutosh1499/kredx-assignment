@@ -13,7 +13,7 @@ async function KredxCapabilities() {
 			<div id='capabilitiesGrid' className='w-full grid text-center gap-5'>
 				{data !== null
 					? data.map(cap => {
-							return <Capability capability={cap} />;
+							return <Capability key={cap.id} capability={cap} />;
 					  })
 					: 'Data fetching'}
 				<div className='col-span-full'>
