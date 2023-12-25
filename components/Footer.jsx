@@ -17,7 +17,6 @@ function Footer() {
 				<Image src={facebookLogo} />
 				<Image src={twitterLogo} />
 				<Image src={youtubeLogo} />
-				{/* <Image src={kredxLogo} /> */}
 			</div>
 		</div>
 	);

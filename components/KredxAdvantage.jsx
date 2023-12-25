@@ -1,10 +1,10 @@
 import { advantagesData } from '@/utils/dataFetching';
 
-import Advantages from './Advantages';
+import Advantage from './Advantage';
 
 async function KredxAdvantage() {
 	const data = await advantagesData();
-	return <Advantages data={data} />;
+	return <Advantage data={data} />;
 }
 
 export default KredxAdvantage;
