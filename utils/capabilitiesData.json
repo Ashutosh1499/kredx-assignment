@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 1,
+        "cName": "Invoice Digitization",
+        "content": "Automate all formats of invoices received across any channel into a centralized repository in a single format to reduce error & increase team efficiency",
+        "imageURL": "/assets/icons/invoice-digitalization.svg"
+    },
+    {
+        "id" : 2,
+        "cName": "Invoice Processing",
+        "content": "Automate invoice capturing, invoice exchange with vendors & approval workflows. Centralized vendor portal for tracking all PO’s",
+        "imageURL": "/assets/icons/invoice-processing.svg"
+    },
+    {
+        "id" : 3,
+        "cName": "Centralized access and collaboration",
+        "content": "Collaboration, interaction and documentation is centered at each invoice level making approval workflows efficient, seamless and audit ready",
+        "imageURL": "/assets/icons/collaboration.svg"
+    },
+    {
+        "id" : 4,
+        "cName": "Advanced & Quick customizable workflows",
+        "content": "Advanced AI that adapts to AP processes unique to your organization within the shortest amount of time",
+        "imageURL": "/assets/icons/customizable.svg"
+    },
+    {
+        "id" : 5,
+        "cName": "Invoice Matching",
+        "content": "Effortless 2 and 3 way matching with easy to understand ‘reason’ coding for users increasing efficiency & protect against fraud and duplication",
+        "imageURL": "/assets/icons/invoice-matching.svg"
+    },
+    {
+        "id" : 6,
+        "cName": "Integrated Vendor Management",
+        "content": "Manage vendor onboarding, documentation and payment from one place",
+        "imageURL": "/assets/icons/management.svg"
+    },
+    {
+        "id" : 7,
+        "cName": "Strengthen treasury & your supply chain",
+        "content": "Increase treasury income through early payments via dynamic discounting. Earn more from each spend via KredX’s AP card program",
+        "imageURL": "/assets/icons/supply-chain.svg"
+    },
+    {
+        "id" : 8,
+        "cName": "Audit ready",
+        "content": "One-click access to all conversations and notes at each invoice level. Data available on cloud archived after 7 years for full audit trail wherever required.",
+        "imageURL": "/assets/icons/audit.svg"
+    }
+]

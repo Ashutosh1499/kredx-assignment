@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "advantagePoint": "Increase bottom line by reducing costs and increasing efficiency",
+        "advantageDescription": ["Automations to increase the efficiency in both AP and AR sides.", "On time follow-ups with customers enables quicker realization of revenues", "Tools like dynamic discounting to increase bottom line.", "Reduced human effort can be utilized to focus on increasing revenues."]
+    },
+    {
+        "id": 2,
+        "advantagePoint": "A tool for CFOs to analyze the cash flow and simulate what-if scenarios.",
+        "advantageDescription": []
+    },
+    {
+        "id": 3,
+        "advantagePoint": "Use integrated financing to fulfill cash flow gaps just in time.",
+        "advantageDescription": []
+    }
+]
