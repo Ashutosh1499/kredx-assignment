@@ -1,6 +1,6 @@
 # The Picture shows the component layout of the application.
 ![image](https://github.com/Ashutosh1499/kredx-assignment/assets/105492487/a59d4663-03fe-4bd3-9803-7003e3b203b1)
-
+## You can run command ```npm install``` to install the dependencies and follow further steps to run the application
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -13,7 +13,7 @@ npm run dev
 # or
 yarn dev
 # or
-pnpm dev
+npm dev
 # or
 bun dev
 ```
