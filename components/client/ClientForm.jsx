@@ -16,6 +16,7 @@ function ClientForm() {
 	const router = useRouter();
 	const handleSubmit = e => {
 		e.preventDefault();
+		if (!isValidPhoneNumber(phoneNumber)) return;
 		const data = {
 			name: name,
 			phoneNumber: formatPhoneNumberIntl(phoneNumber),
