@@ -9,14 +9,14 @@ import youtubeLogo from '@/public/assets/icons/youtube.svg';
 
 function Footer() {
 	return (
-		<div id='footer' className='flex items-center justify-between'>
-			<Image src={kredxLogo} />
+		<div id='footer' className='w-full flex items-center justify-between'>
+			<Image alt='' src={kredxLogo} />
 			<div className='grid grid-cols-5 gap-5'>
-				<Image src={instaIcon} />
-				<Image src={linkedinLogo} />
-				<Image src={facebookLogo} />
-				<Image src={twitterLogo} />
-				<Image src={youtubeLogo} />
+				<Image alt='' src={instaIcon} />
+				<Image alt='' src={linkedinLogo} />
+				<Image alt='' src={facebookLogo} />
+				<Image alt='' src={twitterLogo} />
+				<Image alt='' src={youtubeLogo} />
 			</div>
 		</div>
 	);

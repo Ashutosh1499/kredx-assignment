@@ -26,10 +26,12 @@ function Advantages({ data }) {
 							data.map((eachPoint, ind) => {
 								return (
 									<div
+										id='advantageTab'
 										className={
 											activePoint !== ind ? inactivePointCSS : activePointCSS
 										}
-										key={ind}>
+										key={ind}
+										onClick={() => setActivePoint(ind)}>
 										<span
 											style={{
 												color: activePoint !== ind ? 'black' : 'white',
@@ -37,8 +39,8 @@ function Advantages({ data }) {
 											{eachPoint.advantagePoint}
 										</span>
 										<Image
+											alt=''
 											src={activePoint !== ind ? arrowDarkIcon : arrowLightIcon}
-											onClick={() => setActivePoint(ind)}
 											style={{ cursor: 'pointer' }}
 										/>
 									</div>
@@ -58,7 +60,7 @@ function Advantages({ data }) {
 							data[activePoint].advantageDescription.map((eachDesc, ind) => {
 								return (
 									<p key={ind} className='flex items-start'>
-										<Image src={arrowCircle} />
+										<Image alt='' src={arrowCircle} />
 										{eachDesc}
 									</p>
 								);

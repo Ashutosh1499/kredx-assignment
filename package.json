@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/image-url": "^1.0.2",
+    "next": "14.0.4",
+    "next-sanity": "^7.0.5",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-hook-form": "^7.49.2",
+    "react-phone-number-input": "^3.3.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
