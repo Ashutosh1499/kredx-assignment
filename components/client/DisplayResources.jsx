@@ -59,7 +59,7 @@ function DisplayResources({ resourceData }) {
 										alt=''
 									/>
 								</div>
-								<div className='eachName flex justify-center'>
+								<div className='eachName flex'>
 									<h3 className='mt-5 mb-2'>{resource.resourceTitle}</h3>
 								</div>
 								<span>{resource.resourceDate}</span>
